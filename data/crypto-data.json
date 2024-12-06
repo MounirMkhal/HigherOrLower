@@ -1,0 +1,21 @@
+[
+    {
+      "id": "bitcoin",
+      "name": "Bitcoin",
+      "image": "/images/bitcoin.png",
+      "ath_market_cap": 1200000000000
+    },
+    {
+      "id": "ethereum",
+      "name": "Ethereum",
+      "image": "https://cdn.discordapp.com/attachments/1312932606802792450/1314714456026255371/eth.jpg?ex=6754c6c0&is=67537540&hm=d46badd9b7673658e429186a241df718c551f98407bd37648b7a7b2e99c1057d&",
+      "ath_market_cap": 600000000000
+    },
+    {
+      "id": "binancecoin",
+      "name": "Binance Coin",
+      "image": "/images/binancecoin.png",
+      "ath_market_cap": 100000000000
+    }
+  ]
+  
