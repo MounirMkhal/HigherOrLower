@@ -70,7 +70,7 @@ export default function Game({ onGameOver }) {
           >
             <img src="/images/x.png" alt="Twitter" className="w-8 h-8" />
           </a>
-          <a href="https://pump.fun" target="_blank" rel="noopener noreferrer">
+          <a href="https://pump.fun/coin/4hNf7dZ19ZMqBhRFMUhctCcweGRyQui8tGu7FnLapump" target="_blank" rel="noopener noreferrer">
             <img
               src="/images/pumpfun.png"
               alt="Chart Line"
@@ -132,7 +132,7 @@ export default function Game({ onGameOver }) {
           </div>
         </div>
         <p className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white font-bold text-2xl">
-          CA: Coming Soon...
+          CA: 4hNf7dZ19ZMqBhRFMUhctCcweGRyQui8tGu7FnLapump
         </p>
       </div>
     );
