@@ -29,8 +29,8 @@ export default function Game({ onGameOver }) {
     const [coin1, coin2] = currentPair;
   
     const isCorrect =
-      (guess === 'higher' && coin1.ath_market_cap < coin2.ath_market_cap) ||
-      (guess === 'lower' && coin1.ath_market_cap > coin2.ath_market_cap);
+      (guess === 'higher' && coin1.ath_market_cap <= coin2.ath_market_cap) ||
+      (guess === 'lower' && coin1.ath_market_cap >= coin2.ath_market_cap);
   
     setShowMarketCap(true);
   
