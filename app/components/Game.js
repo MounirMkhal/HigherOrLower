@@ -30,7 +30,6 @@ export default function Game({ onGameOver }) {
   
     setShowMarketCap(true);
   
-    // Play different sounds for correct and incorrect guesses
     const soundFile = isCorrect ? '/images/correct.mp3' : '/images/wrong.mp3';
     const feedbackSound = new Audio(soundFile);
     feedbackSound.volume = 0.05;
@@ -44,7 +43,8 @@ export default function Game({ onGameOver }) {
         localStorage.setItem('highscore', newScore);
       }
       setTimeout(() => {
-        setCurrentPair(getRandomPair(data));
+        // Swap the coins and get a new right coin
+        setCurrentPair([coin2, ...getRandomPair(data).slice(1)]);
         setShowMarketCap(false);
       }, 2000);
     } else {
