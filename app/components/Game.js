@@ -49,7 +49,7 @@ export default function Game({ onGameOver }) {
       }, 2000);
     } else {
       feedbackSound.play();
-      onGameOver();
+      onGameOver(score);
       setScore(0);
       setCurrentPair(getRandomPair(data));
       setShowMarketCap(false);
@@ -111,13 +111,13 @@ export default function Game({ onGameOver }) {
             <div className="relative right-[2%] bottom-[-12.5%] flex flex-col items-center mb-4">
               <button
                 onClick={() => handleGuess("higher")}
-                className="bg-green-500 px-16 py-2 rounded mb-2 font-bold"
+                className="bg-green-500 px-16 py-2 rounded mb-2 font-bold border-2 border-white"
               >
                 Higher
               </button>
               <button
                 onClick={() => handleGuess("lower")}
-                className="bg-red-500 px-16 py-2 rounded font-bold"
+                className="bg-red-500 px-16 py-2 rounded font-bold border-2 border-white"
               >
                 Lower
               </button>
