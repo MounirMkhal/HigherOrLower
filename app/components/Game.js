@@ -18,7 +18,11 @@ export default function Game({ onGameOver }) {
 
   function getRandomPair(data) {
     const shuffled = [...data].sort(() => 0.5 - Math.random());
-    return shuffled.slice(0, 2);
+    const firstCoin = shuffled[0];
+    // Filter out the first coin and get a random one from remaining coins
+    const remainingCoins = shuffled.filter(coin => coin.name !== firstCoin.name);
+    const secondCoin = remainingCoins[Math.floor(Math.random() * remainingCoins.length)];
+    return [firstCoin, secondCoin];
   }
 
   const handleGuess = (guess) => {
