@@ -1,21 +1,200 @@
 [
-    {
-      "id": "bitcoin",
-      "name": "Bitcoin",
-      "image": "/images/bitcoin.png",
-      "ath_market_cap": 1200000000000
-    },
-    {
-      "id": "ethereum",
-      "name": "Ethereum",
-      "image": "https://cdn.discordapp.com/attachments/1312932606802792450/1314714456026255371/eth.jpg?ex=6754c6c0&is=67537540&hm=d46badd9b7673658e429186a241df718c551f98407bd37648b7a7b2e99c1057d&",
-      "ath_market_cap": 600000000000
-    },
-    {
-      "id": "binancecoin",
-      "name": "Binance Coin",
-      "image": "/images/binancecoin.png",
-      "ath_market_cap": 100000000000
-    }
-  ]
-  
+  {
+      "id": "dogecoin",
+      "name": "Dogecoin",
+      "image": "/images/doge.png",
+      "ath_market_cap": 88200000000
+  },
+  {
+      "id": "pepe",
+      "name": "Pepe",
+      "image": "/images/pepe.png",
+      "ath_market_cap": 11000000000
+  },
+  {
+      "id": "shiba-inu",
+      "name": "Shiba Inu",
+      "image": "/images/shiba-inu.png",
+      "ath_market_cap": 51400000000
+  },
+  {
+      "id": "dogwifhat",
+      "name": "Dogwifhat",
+      "image": "/images/dogwifhat.png",
+      "ath_market_cap": 4300000000
+  },
+  {
+      "id": "bonk",
+      "name": "Bonk",
+      "image": "/images/bonk.png",
+      "ath_market_cap": 4900000000
+  },
+  {
+      "id": "floki",
+      "name": "FLOKI",
+      "image": "/images/floki.png",
+      "ath_market_cap": 3060000000
+  },
+  {
+      "id": "brett",
+      "name": "BRETT",
+      "image": "/images/brett.png",
+      "ath_market_cap": 2130000000
+  },
+  {
+      "id": "mog-coin",
+      "name": "MOG COIN",
+      "image": "/images/mog-coin.png",
+      "ath_market_cap": 1480000000
+  },
+  {
+      "id": "popcat",
+      "name": "POPCAT",
+      "image": "/images/popcat.png",
+      "ath_market_cap": 1900000000
+  },
+  {
+      "id": "pnut",
+      "name": "PNUT",
+      "image": "/images/pnut.png",
+      "ath_market_cap": 2290000000
+  },
+  {
+      "id": "notcoin",
+      "name": "NOTCOIN",
+      "image": "/images/notcoin.png",
+      "ath_market_cap": 2510000000
+  },
+  {
+      "id": "mew",
+      "name": "MEW",
+      "image": "/images/mew.png",
+      "ath_market_cap": 1070000000
+  },
+  {
+      "id": "neiro",
+      "name": "Neiro",
+      "image": "/images/neiro.png",
+      "ath_market_cap": 1190000000
+  },
+  {
+      "id": "dog-go-to-the-moon",
+      "name": "DOG GO TO THE MOON",
+      "image": "/images/doggotothemoon.png",
+      "ath_market_cap": 956000000
+  },
+  {
+      "id": "spx6900",
+      "name": "SPX6900",
+      "image": "/images/spx6900.png",
+      "ath_market_cap": 850000000
+  },
+  {
+      "id": "book-of-meme",
+      "name": "BOOK OF MEME",
+      "image": "/images/book-of-meme.png",
+      "ath_market_cap": 1190000000
+  },
+  {
+      "id": "agentfun",
+      "name": "AgentFun.AI",
+      "image": "/images/agentfun.png",
+      "ath_market_cap": 816000000
+  },
+  {
+      "id": "turbo",
+      "name": "Turbo",
+      "image": "/images/turbo.png",
+      "ath_market_cap": 813000000
+  },
+  {
+      "id": "ai16z",
+      "name": "AI16Z",
+      "image": "/images/ai16z.png",
+      "ath_market_cap": 708000000
+  },
+  {
+      "id": "snek",
+      "name": "Snek",
+      "image": "/images/snek.png",
+      "ath_market_cap": 605000000
+  },
+  {
+      "id": "act-i-the-ai-prophecy",
+      "name": "ACT I THE AI PROPHECY",
+      "image": "/images/ai-prophecy.png",
+      "ath_market_cap": 822000000
+  },
+  {
+      "id": "memecoin",
+      "name": "Memecoin",
+      "image": "/images/memecoin.png",
+      "ath_market_cap": 603000000
+  },
+  {
+      "id": "gigachad",
+      "name": "Gigachad",
+      "image": "/images/gigachad.png",
+      "ath_market_cap": 710000000
+  },
+  {
+      "id": "moo-deng",
+      "name": "Moo Deng",
+      "image": "/images/moo-deng.png",
+      "ath_market_cap": 660000000
+  },
+  {
+      "id": "zerebro",
+      "name": "Zerebro",
+      "image": "/images/zerebro.png",
+      "ath_market_cap": 592000000
+  },
+  {
+      "id": "fwog",
+      "name": "Fwog",
+      "image": "/images/fwog.png",
+      "ath_market_cap": 688000000
+  },
+  {
+      "id": "just-a-chill-guy",
+      "name": "Just a chill guy",
+      "image": "/images/just-a-chill-guy.png",
+      "ath_market_cap": 640000000
+  },
+  {
+      "id": "fartcoin",
+      "name": "Fartcoin",
+      "image": "/images/fartcoin.png",
+      "ath_market_cap": 422000000
+  },
+  {
+      "id": "michi",
+      "name": "Michi",
+      "image": "/images/michi.png",
+      "ath_market_cap": 312000000
+  },
+  {
+      "id": "slerf",
+      "name": "Slerf",
+      "image": "/images/slerf.png",
+      "ath_market_cap": 439000000
+  },
+  {
+      "id": "BAN",
+      "name": "BAN",
+      "image": "/images/ban.png",
+      "ath_market_cap": 375000000
+  },
+  {
+      "id": "retardio",
+      "name": "RETARDIO",
+      "image": "/images/retardio.png",
+      "ath_market_cap": 229000000
+  },
+  {
+      "id": "luce",
+      "name": "Luce",
+      "image": "/images/luce.png",
+      "ath_market_cap": 296000000
+  }
+]

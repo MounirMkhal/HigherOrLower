@@ -14,8 +14,28 @@
   }
 }
 
+@font-face {
+  font-family: 'Heavitas';
+  src: url('/fonts/Heavitas.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
 body {
+  font-family: 'Heavitas', cursive;
   color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  overflow: hidden;
 }
+
+.text-gold {
+  color: #FFD700; /* Gold color */
+}
+
+@keyframes slotMachine {
+  0% { transform: translateY(0); }
+  100% { transform: translateY(-100%); }
+}
+
