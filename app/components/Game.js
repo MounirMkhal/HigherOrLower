@@ -132,7 +132,7 @@ export default function Game({ onGameOver }) {
           </div>
         </div>
         <p className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white font-bold text-2xl">
-          CA: FYGa1McDMTEteDBZJGwJt6h3rNYHnwYbud3ETjJ6pump
+          CA: 
         </p>
       </div>
     );
