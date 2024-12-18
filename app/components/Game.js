@@ -64,13 +64,13 @@ export default function Game({ onGameOver }) {
       <div id="game-container" className="text-center w-full h-screen">
         <div className="absolute top-4 right-9 flex space-x-4 z-20">
           <a
-            href="https://x.com/Higher0rLower"
+            href="https://x.com/MemecoinHOL"
             target="_blank"
             rel="noopener noreferrer"
           >
             <img src="/images/x.png" alt="Twitter" className="w-8 h-8" />
           </a>
-          <a href="https://pump.fun/coin/FYGa1McDMTEteDBZJGwJt6h3rNYHnwYbud3ETjJ6pump" target="_blank" rel="noopener noreferrer">
+          <a href="https://pump.fun/coin/" target="_blank" rel="noopener noreferrer">
             <img
               src="/images/pumpfun.png"
               alt="Chart Line"
@@ -132,7 +132,7 @@ export default function Game({ onGameOver }) {
           </div>
         </div>
         <p className="absolute bottom-4 left-1/2 transform -translate-x-1/2 text-white font-bold text-2xl">
-          CA: EWrNh46dJEmGGQkFowtqoBk955DWNQU13Zwjobm4pump
+          CA: 
         </p>
       </div>
     );
